@@ -19,9 +19,11 @@ deploy:
   on:
     repo: ppparihar/vse-hello
     tags: true
+    branch: master
 - provider: script
-  script: vsce publish patch -p $VS_TOKEN
+  script: vsce publish $TRAVIS_TAG -p $VS_TOKEN
   skip_cleanup: true
   on:
     repo: ppparihar/vse-hello
     tags: true
+    branch: master
