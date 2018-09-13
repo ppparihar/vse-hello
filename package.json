@@ -2,7 +2,7 @@
     "name": "helloworld",
     "displayName": "helloWorld",
     "description": "hello",
-    "version": "0.0.8",
+    "version": "1.0.0",
     "publisher": "premparihar",
     "engines": {
         "vscode": "^1.27.0"
