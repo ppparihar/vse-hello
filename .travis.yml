@@ -3,7 +3,7 @@ node_js:
 - 9.8.0
 install:
 - npm install
-- npm run postinstall
+#- npm run postinstall
 # env:
 #   global:
 #   - secure: I67D0yOE3wCSq4x6uJasGm/RvluJJCJGPRcjN1Vz5yBX1saI8+KZy7616OZ4X48VadNxBRO0eWzzBELgmRJv7RJCjFFnWYV83yisICJJl/HIGwcuuIC16BDinsJlpa5D/P4ORdFUFeTszyNB0J1q96bEV2MW7h1xDe+4GwYAcs4vpPssYsxgWyyyOGrSvcj4Bzd1l80Vzobeh89cBc/txoTNGZs5R+tgEbokDCmWvPJuf+U6x0MMLWBACefEV8S7uGjfjzWFqkBbCLZGPrgZrfGVK7WjazcYRekLAXfVWx/cfOKwNyZrvJeHkdEBQ653NVE2rSfHvBm+3+L2qNCDrYyfCN6AAcMUrpJ4Q+JSA6Z18EBrFLbHMhh3NCxn52/SNq/yq59bcYZ5iDGwQe7VMc80wuDXmSNdNMa+Q0wWFYxmHoQfTKCeZGRR9D6Coyu54gfw1fVHAuQ/2dVQPtwHw3xzmsvqr+ErOTYTlol4AsaHrd7Agmgtj6k5CbQfP2C5z+jX0AvsilrbzLpWGobiQdCWayM0DBCenz+HXskioyQx5bWKMhCY9+QA3pGUsH5P6XSzmQWKYkJqQ0+B3Mzgr1mB6vLh7fzyBtSpR1L/6/YPOOPSgUedR21+GFplqKCGQ6NgX0iqYnWaIsjm2rthW+583zKVFZqoNH/FNtek5iI=
