@@ -11,6 +11,14 @@ env:
 after_success:
 - npm install -g vsce;
 deploy:
+- provider: releases
+  api_key: [GITHUB_AUTH_TOKEN]
+  file_glob: true
+  file: "*.vsix"
+  skip_cleanup: true
+  on:
+    repo: ppparihar/vse-hello
+    tags: true
 - provider: script
   script: vsce publish patch -p $VS_TOKEN
   skip_cleanup: true
