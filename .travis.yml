@@ -4,23 +4,23 @@ node_js:
 install:
 - npm install
 - npm run postinstall
-env:
-  global:
-  - secure: I67D0yOE3wCSq4x6uJasGm/RvluJJCJGPRcjN1Vz5yBX1saI8+KZy7616OZ4X48VadNxBRO0eWzzBELgmRJv7RJCjFFnWYV83yisICJJl/HIGwcuuIC16BDinsJlpa5D/P4ORdFUFeTszyNB0J1q96bEV2MW7h1xDe+4GwYAcs4vpPssYsxgWyyyOGrSvcj4Bzd1l80Vzobeh89cBc/txoTNGZs5R+tgEbokDCmWvPJuf+U6x0MMLWBACefEV8S7uGjfjzWFqkBbCLZGPrgZrfGVK7WjazcYRekLAXfVWx/cfOKwNyZrvJeHkdEBQ653NVE2rSfHvBm+3+L2qNCDrYyfCN6AAcMUrpJ4Q+JSA6Z18EBrFLbHMhh3NCxn52/SNq/yq59bcYZ5iDGwQe7VMc80wuDXmSNdNMa+Q0wWFYxmHoQfTKCeZGRR9D6Coyu54gfw1fVHAuQ/2dVQPtwHw3xzmsvqr+ErOTYTlol4AsaHrd7Agmgtj6k5CbQfP2C5z+jX0AvsilrbzLpWGobiQdCWayM0DBCenz+HXskioyQx5bWKMhCY9+QA3pGUsH5P6XSzmQWKYkJqQ0+B3Mzgr1mB6vLh7fzyBtSpR1L/6/YPOOPSgUedR21+GFplqKCGQ6NgX0iqYnWaIsjm2rthW+583zKVFZqoNH/FNtek5iI=
-  - secure: QMS2bcwzHMWSpOZU/SxCxT0CJ4QO4BCwSXTAsDLk0WqgLYSfx2oMCrTP3RrWpC9cnKjsuT9AYZaL+3+VjdvXkF2+kWBzNg3OGQx4J1UhNjABDSfa988Kfv3pyjAxouYMv9a5rwt2yjbqMerduNXuyOHXd9udu6hHq2xfUNo0ijSDf3C+4LPNhv+acJ+i64Whtb/Pg5hZM0Ss+ALe7jhZxXyvepvZexttdY8hqxHjmJJo/Nv5Nqh+3pQv8JtMac8/teTHP3F24G2zK15i2yM+9H4+V/bX+VTU8TsMA8YRclpCms+eg8yRX7roNis5OfD+qVM3BIZ9FYzjDkwWSQYt1C2wxK4PZ71fm8A3rViJJ1IIjq05YfvEeOV5HPpxpfGOAgm9jAds7w32MJHvppoUquEn0iWa1/QA0+JAjAyRx7Vqf0af1mXTQp44hq2ymo7bJCbdahxHnX6ritwvyAVcck/S3pMUA/f8Fq2Ed+UrI0iUzuCmhY5NIXTByqr/krM90w6g3zdxacM9JojG4Ic+OyHFujsPTuVbHizIDbzMHAP78rzQTcTh1dd5Bp4Zu9InusJ7kh8W/BMVBdRAykU0ULavDb86YzZCLeVtN04ca+ZYLPc1QpJOxmvn4n7D2HLxlkNfgi6vEEDHXu1rp3FgN4BfJAMy5pOCKr+jQHzMsTU=
+# env:
+#   global:
+#   - secure: I67D0yOE3wCSq4x6uJasGm/RvluJJCJGPRcjN1Vz5yBX1saI8+KZy7616OZ4X48VadNxBRO0eWzzBELgmRJv7RJCjFFnWYV83yisICJJl/HIGwcuuIC16BDinsJlpa5D/P4ORdFUFeTszyNB0J1q96bEV2MW7h1xDe+4GwYAcs4vpPssYsxgWyyyOGrSvcj4Bzd1l80Vzobeh89cBc/txoTNGZs5R+tgEbokDCmWvPJuf+U6x0MMLWBACefEV8S7uGjfjzWFqkBbCLZGPrgZrfGVK7WjazcYRekLAXfVWx/cfOKwNyZrvJeHkdEBQ653NVE2rSfHvBm+3+L2qNCDrYyfCN6AAcMUrpJ4Q+JSA6Z18EBrFLbHMhh3NCxn52/SNq/yq59bcYZ5iDGwQe7VMc80wuDXmSNdNMa+Q0wWFYxmHoQfTKCeZGRR9D6Coyu54gfw1fVHAuQ/2dVQPtwHw3xzmsvqr+ErOTYTlol4AsaHrd7Agmgtj6k5CbQfP2C5z+jX0AvsilrbzLpWGobiQdCWayM0DBCenz+HXskioyQx5bWKMhCY9+QA3pGUsH5P6XSzmQWKYkJqQ0+B3Mzgr1mB6vLh7fzyBtSpR1L/6/YPOOPSgUedR21+GFplqKCGQ6NgX0iqYnWaIsjm2rthW+583zKVFZqoNH/FNtek5iI=
+#   - secure: QMS2bcwzHMWSpOZU/SxCxT0CJ4QO4BCwSXTAsDLk0WqgLYSfx2oMCrTP3RrWpC9cnKjsuT9AYZaL+3+VjdvXkF2+kWBzNg3OGQx4J1UhNjABDSfa988Kfv3pyjAxouYMv9a5rwt2yjbqMerduNXuyOHXd9udu6hHq2xfUNo0ijSDf3C+4LPNhv+acJ+i64Whtb/Pg5hZM0Ss+ALe7jhZxXyvepvZexttdY8hqxHjmJJo/Nv5Nqh+3pQv8JtMac8/teTHP3F24G2zK15i2yM+9H4+V/bX+VTU8TsMA8YRclpCms+eg8yRX7roNis5OfD+qVM3BIZ9FYzjDkwWSQYt1C2wxK4PZ71fm8A3rViJJ1IIjq05YfvEeOV5HPpxpfGOAgm9jAds7w32MJHvppoUquEn0iWa1/QA0+JAjAyRx7Vqf0af1mXTQp44hq2ymo7bJCbdahxHnX6ritwvyAVcck/S3pMUA/f8Fq2Ed+UrI0iUzuCmhY5NIXTByqr/krM90w6g3zdxacM9JojG4Ic+OyHFujsPTuVbHizIDbzMHAP78rzQTcTh1dd5Bp4Zu9InusJ7kh8W/BMVBdRAykU0ULavDb86YzZCLeVtN04ca+ZYLPc1QpJOxmvn4n7D2HLxlkNfgi6vEEDHXu1rp3FgN4BfJAMy5pOCKr+jQHzMsTU=
 after_success:
 - npm install -g vsce;
 deploy:
-# - provider: releases
-#   api_key: $GITHUB_AUTH_TOKEN
-#   file_glob: true
-#   file: "*.vsix"
-#   skip_cleanup: true
-#   on:
-#     repo: ppparihar/vse-hello
-#     tags: true
+- provider: releases
+  api_key: $GITHUB_AUTH_TOKEN
+  file_glob: true
+  file: "*.vsix"
+  skip_cleanup: true
+  on:
+    repo: ppparihar/vse-hello
+    tags: true
 - provider: script
-  script: vsce publish patch -p $VS_TOKEN
+  script: vsce publish -p $VS_TOKEN
   skip_cleanup: true
   on:
     repo: ppparihar/vse-hello
